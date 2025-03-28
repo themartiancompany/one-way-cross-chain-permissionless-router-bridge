@@ -140,7 +140,7 @@ you're not like unworthy of the oxygen you're breathing.
                 sig(E2)
 ```
 
-4) user B takes 8 GPYUSD from gnosis vault and user A redeems 1 XDAI
+4) user B takes 8 GPYUSD from gnosis vault and user A receives 1 XDAI
 
 ```
   Transaction G3:
