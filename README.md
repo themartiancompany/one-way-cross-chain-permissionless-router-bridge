@@ -71,6 +71,9 @@ you're not like unworthy of the oxygen you're breathing.
 
 ### The scheme
 
+Feel free to replace `XDAI` with the symbol for the
+centralized bridged version of `PYUSD`.
+
 #### Initial data
 
 ```
