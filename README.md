@@ -90,7 +90,7 @@ centralized bridged version of `PYUSD`.
         0 GPYUSD
 ```
 
-1) user A deposit 10 XDAI on gnosis vault and 10 PYUSD on ethereum vault                             
+1) User A deposits 10 XDAI on Gnosis vault and 10 PYUSD on Ethereum vault.
 
 ```
   Transaction E1:
@@ -115,7 +115,7 @@ centralized bridged version of `PYUSD`.
       +10 GPYUSD
 ```
 
-2) user B bridge 10 PYUSD with ethereum vault
+2) User B requests to bridge 10 PYUSD to Ethereum vault.
 
 ```
   Transaction E2:
@@ -135,7 +135,7 @@ centralized bridged version of `PYUSD`.
       +10 GPYUSD
 ```
  
-3) user A present valid signature to gnosis vault of user B bridging 10 PYUSD on ethereum vault so user B is allowed to take 8 GPYUSD from gnosis vault
+3) User A presents valid signature to Gnosis vault of user B request to 10 PYUSD on Ethereum vault so user B is allowed to receive 8 GPYUSD from Gnosis vault.
 
 ```
   Transaction G2:
@@ -143,7 +143,7 @@ centralized bridged version of `PYUSD`.
                 sig(E2)
 ```
 
-4) user B takes 8 GPYUSD from gnosis vault and user A receives 1 XDAI
+4) User B send request to receive 8 GPYUSD from Gnosis vault and user A receives 1 XDAI.
 
 ```
   Transaction G3:
@@ -166,7 +166,7 @@ centralized bridged version of `PYUSD`.
        +2 GPYUSD
 ```
 
-5) user A presents valid signature to ethereum vault of user B taking the 8 GPYUSD so he is allowed to take user A 10 PYUSD and his own PYUSD
+5) User A presents valid signature to Ethereum vault of user B receiving the 8 GPYUSD so he is allowed to take user B 10 PYUSD and his own PYUSD.
 
 ```
   Transaction E3:
