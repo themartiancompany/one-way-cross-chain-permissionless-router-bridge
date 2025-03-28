@@ -185,7 +185,7 @@ centralized bridged version of `PYUSD`.
     vault E:
         0 PYUSD
     vault G:
-       +1 XDAI
+       +9 XDAI
        +1 GPYUSD
 ```
 
