@@ -24,7 +24,7 @@ Now I can still add support for PYUSD on Gnosis,
 still I wouldn't be using the Google RPC at all.
 
 Also probably PayPal wouldn't like much a project
-which more or exposes its token customers to
+which roughly exposes its token's customers to
 a stable-coin baked network from a competitor.
 
 Not that I care much frankly, as what the Ur
