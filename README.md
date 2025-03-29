@@ -141,7 +141,7 @@ centralized bridged version of `PYUSD`.
 ```
  
 3) User A presents valid signature to Gnosis vault of user B request to bridge 10 PYUSD on Ethereum vault,
-   so user B is allowed to receive 8 GPYUSD from Gnosis vault.
+   so user B is allowed to receive 8 GPYUSD from Gnosis vault before timeout is reached.
 
 ```
   Transaction G3:
@@ -172,7 +172,8 @@ centralized bridged version of `PYUSD`.
        +2 GPYUSD
 ```
 
-5) User A presents valid signature to Ethereum vault of user B receiving the 8 GPYUSD so he is allowed to take user B 10 PYUSD and his own PYUSD.
+5) Before timeout `t` is reached user A presents valid signature to Ethereum vault of user B receiving the
+   8 GPYUSD so he is allowed to take user B 10 PYUSD and his own PYUSD.
 
 ```
   Transaction E3:
