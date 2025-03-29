@@ -230,6 +230,28 @@ centralized bridged version of `PYUSD`.
        +1 GPYUSD
 ```
 
+7) The bridge author takes some money to buy food to prepare dinner for his girlfriend
+   and think about some other way to make the world a better place.
+
+```
+  Transaction G6:
+    bridge author =>     vault G
+                dinner
+    vault G       =>     bridge author
+     -1 XDAI             +1 XDAI
+    vault G       =>     null address
+     -1 GPYUSD    =>     +1 GPYUSD
+
+  Balance:
+    bridge author:
+       +1 XDAI
+    vault E:
+        0 PYUSD
+    vault G:
+       +1 XDAI
+       +1 GPYUSD
+```
+
 #### Observations
 
 - User A can be anybody, so user B and user A can be the same person.
