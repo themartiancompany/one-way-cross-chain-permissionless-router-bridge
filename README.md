@@ -115,7 +115,7 @@ centralized bridged version of `PYUSD`.
       +10 GPYUSD
 ```
 
-2) User B requests to bridge 10 PYUSD to Ethereum vault.
+2) User B requests to bridge 10 PYUSD to Ethereum vault from user A.
 
 ```
   Transaction E2:
