@@ -209,7 +209,11 @@ centralized bridged version of `PYUSD`.
 ```
   Transaction G5:
     user B        =>     vault G
-     -8 GPYUSD           +7 XDAI
+     -8 GPYUSD           +8 GPYUSD
+    vault G       =>     user B
+     -7 XDAI             +7 XDAI
+    vault G       =>     null address
+     -7 GPYUSD    =>     +7 GPYUSD
 
   Balance:
     user A:
