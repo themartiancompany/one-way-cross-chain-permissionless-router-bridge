@@ -226,11 +226,13 @@ centralized bridged version of `PYUSD`.
        +1 GPYUSD
 ```
 
-
 #### Observations
 
 - User A can be anybody, so user B and user A can be the same person.
 - The bridge retains a share of the funds.
+- In case user A and user B are the same person and the Ethereum transactions
+  are never actually transmitted to the network, the GPYUSD token retains
+  its value.
 
 ### License
 
