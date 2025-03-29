@@ -196,6 +196,10 @@ centralized bridged version of `PYUSD`.
        +1 GPYUSD
 ```
 
+#### Observations
+
+- User A can be anybody, so user B and user A can be the same person.
+
 ### License
 
 The content in this page, as the rest of this repository is released under the terms of the GNU Affero General Public License version 3.
