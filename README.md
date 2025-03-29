@@ -259,6 +259,8 @@ centralized bridged version of `PYUSD`.
 - In case user A and user B are the same person and the Ethereum transactions
   are never actually transmitted to the network, the GPYUSD token retains
   its value.
+- In case user A and bridge author are the same person, the bridge
+  share must be large enough to cover the expenses for network fees.
 
 ### License
 
