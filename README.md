@@ -83,6 +83,8 @@ centralized bridged version of `PYUSD`.
       +10 XDAI
     user B:
       +10 PYUSD
+        0 GPYUSD
+        0 XDAI
     vault E:
         0 PYUSD
     vault G:
@@ -108,6 +110,8 @@ centralized bridged version of `PYUSD`.
         0 XDAI
     user B:
       +10 PYUSD
+        0 GPYUSD
+        0 XDAI
     vault E:
       +10 PYUSD
     vault G:
@@ -133,6 +137,8 @@ centralized bridged version of `PYUSD`.
         0 XDAI
     user B:
         0 PYUSD
+        0 GPYUSD
+        0 XDAI
     vault E:
       +20 PYUSD
     vault G:
@@ -165,6 +171,7 @@ centralized bridged version of `PYUSD`.
     user B:
         0 PYUSD
        +8 GPYUSD
+        0 XDAI
     vault E:
       +20 PYUSD
     vault G:
@@ -189,6 +196,7 @@ centralized bridged version of `PYUSD`.
     user B:
         0 PYUSD
        +8 GPYUSD
+        0 XDAI
     vault E:
         0 PYUSD
     vault G:
@@ -196,9 +204,33 @@ centralized bridged version of `PYUSD`.
        +1 GPYUSD
 ```
 
+6) At a later time user B or somebody else returns the GPYUSD to the vault G and redeems the XDAI.
+
+```
+  Transaction G5:
+    user B        =>     vault G
+     -8 GPYUSD           +7 XDAI
+
+  Balance:
+    user A:
+      +20 PYUSD
+       +1 XDAI
+    user B:
+        0 PYUSD
+        0 GPYUSD
+       +7 XDAI
+    vault E:
+        0 PYUSD
+    vault G:
+       +2 XDAI
+       +1 GPYUSD
+```
+
+
 #### Observations
 
 - User A can be anybody, so user B and user A can be the same person.
+- The bridge retains a share of the funds.
 
 ### License
 
