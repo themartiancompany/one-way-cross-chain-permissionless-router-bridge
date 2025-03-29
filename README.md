@@ -115,12 +115,17 @@ centralized bridged version of `PYUSD`.
       +10 GPYUSD
 ```
 
-2) User B requests to bridge 10 PYUSD to Ethereum vault from user A.
+2) User B requests to bridge 10 PYUSD to Ethereum vault from user A with timeout `t` and locks
+   user A funds on Gnosis vault by presenting the signature of the request.
 
 ```
   Transaction E2:
     user B        =>     vault E
-    -10 PYUSD            +10 PYUSD
+    -10 PYUSD   (A, t)   +10 PYUSD
+
+  Transaction G2:
+    user B        =>     vault G
+                sig(E2)
 
   Balance:
     user A:
@@ -135,18 +140,19 @@ centralized bridged version of `PYUSD`.
       +10 GPYUSD
 ```
  
-3) User A presents valid signature to Gnosis vault of user B request to 10 PYUSD on Ethereum vault so user B is allowed to receive 8 GPYUSD from Gnosis vault.
+3) User A presents valid signature to Gnosis vault of user B request to bridge 10 PYUSD on Ethereum vault,
+   so user B is allowed to receive 8 GPYUSD from Gnosis vault.
 
 ```
-  Transaction G2:
+  Transaction G3:
     user A        =>     vault G
                 sig(E2)
 ```
 
-4) User B send request to receive 8 GPYUSD from Gnosis vault and user A receives 1 XDAI.
+4) User B sends request to receive 8 GPYUSD from Gnosis vault and user A receives 1 XDAI.
 
 ```
-  Transaction G3:
+  Transaction G4:
     user B        =>     vault G 
      +8 GPYUSD            -8 GPYUSD
     vault G       =>     user A
@@ -171,7 +177,7 @@ centralized bridged version of `PYUSD`.
 ```
   Transaction E3:
     user A        =>     vault E
-                sig(G3)
+                sig(G4)
     vault E       =>     user A
     -20 PYUSD            +20PYUSD
 
