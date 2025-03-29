@@ -262,6 +262,7 @@ centralized bridged version of `PYUSD`.
 - In case user A and bridge author are the same person, the bridge
   share must be large enough to cover the expenses for network fees on
   Ethereum and Gnosis network.
+- Why I've never heard about cross-chain clocks?
 
 ### License
 
