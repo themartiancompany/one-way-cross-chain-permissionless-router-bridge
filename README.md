@@ -260,7 +260,8 @@ centralized bridged version of `PYUSD`.
   are never actually transmitted to the network, the GPYUSD token retains
   its value.
 - In case user A and bridge author are the same person, the bridge
-  share must be large enough to cover the expenses for network fees.
+  share must be large enough to cover the expenses for network fees on
+  Ethereum and Gnosis network.
 
 ### License
 
