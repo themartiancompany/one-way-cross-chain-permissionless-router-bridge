@@ -230,8 +230,8 @@ centralized bridged version of `PYUSD`.
        +1 GPYUSD
 ```
 
-7) The bridge author takes some money to buy food to prepare dinner for his girlfriend
-   and think about some other way to make the world a better place.
+7) The bridge author takes some money to further think about some
+   other way to make the world a better place.
 
 ```
   Transaction G6:
