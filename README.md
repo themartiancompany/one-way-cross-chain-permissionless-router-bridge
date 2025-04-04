@@ -266,6 +266,19 @@ centralized bridged version of `PYUSD`.
   [cross-chain clocks](
     https://ethereum.stackexchange.com/questions/168462/has-anybody-published-code-for-a-cross-chain-clock)?
 
+#### Note added from 4th April 2025
+
+I've linked this document to the Stack Exchange
+[question](
+  https://ethereum.stackexchange.com/questions/168457/one-way-cross-chain-bridge-with-permissionless-router/168458?noredirect=1#comment182338_168458)
+I've asked while writing it.
+
+The question has been deleted on the ground 'the link could disappear', so I'm uploading a version of this document
+to the
+[EVMFS](
+  https://github.com/themartiancompany/evmfs)
+so the censors on there won't complain.
+
 ### License
 
 The content in this page, as the rest of this repository is released under the terms of the GNU Affero General Public License version 3.
